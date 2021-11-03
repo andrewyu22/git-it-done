@@ -47,7 +47,6 @@ var displayRepos = function (repos, searchTerm) {
   console.log(repos);
   console.log(searchTerm);
   // clear old content
-  repoContainerEl.textContent = "";
   repoSearchTerm.textContent = searchTerm;
   // loop over repos
   for (var i = 0; i < repos.length; i++) {
